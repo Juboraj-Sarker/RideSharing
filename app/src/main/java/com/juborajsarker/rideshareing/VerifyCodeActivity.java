@@ -50,7 +50,7 @@ public class VerifyCodeActivity extends AppCompatActivity {
         }
 
         fbAuth = FirebaseAuth.getInstance();
-        
+
 
         codeValue1 = findViewById(R.id.code_value_1);
         codeValue2 = findViewById(R.id.code_value_2);
@@ -181,5 +181,7 @@ public class VerifyCodeActivity extends AppCompatActivity {
                 this,
                 verificationCallbacks,
                 resendToken);
+
+        Toast.makeText(this, "Successfully resend the code !!!", Toast.LENGTH_SHORT).show();
     }
 }

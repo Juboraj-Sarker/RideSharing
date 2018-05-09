@@ -7,9 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.PhoneAuthProvider;
-
 public class RegisterActivity extends AppCompatActivity {
 
     private static final String TAG = "";
@@ -17,12 +14,7 @@ public class RegisterActivity extends AppCompatActivity {
 
 
 
-    private String phoneVerificationId;
-    private PhoneAuthProvider.OnVerificationStateChangedCallbacks
-            verificationCallbacks;
-    private PhoneAuthProvider.ForceResendingToken resendToken;
 
-    private FirebaseAuth fbAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,10 +45,7 @@ public class RegisterActivity extends AppCompatActivity {
 
 
 
-    public void signOut(View view) {
-        fbAuth.signOut();
 
-    }
 
 
 }
