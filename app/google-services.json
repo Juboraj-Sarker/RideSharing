@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "6677437634",
+    "firebase_url": "https://ride-sharing-001.firebaseio.com",
+    "project_id": "ride-sharing-001",
+    "storage_bucket": "ride-sharing-001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6677437634:android:775be4aad43e401a",
+        "android_client_info": {
+          "package_name": "com.juborajsarker.rideshareing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6677437634-euq142vcoi8phvihs99bf7e42faj2dr6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.juborajsarker.rideshareing",
+            "certificate_hash": "63c809115ca3e2a5917bfa164acde72d57b1f485"
+          }
+        },
+        {
+          "client_id": "6677437634-vun1ihbu7kb7pn5k49npmf7vs3178j9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtjaGveQg7tZY-t1bXsxiyvrW1e2meo1c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6677437634-vun1ihbu7kb7pn5k49npmf7vs3178j9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
